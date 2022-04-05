@@ -1,7 +1,4 @@
-# Judul
+# Identitas
 
-**Bold Text**
-
-`code`
-
-Geraldi Theo Wira Kusuma
+nama: Geraldi Theo Wira Kusuma
+desc: Front End Develeoper
