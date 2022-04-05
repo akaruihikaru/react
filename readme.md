@@ -1,4 +1,5 @@
 # Identitas
 
 nama: Geraldi Theo Wira Kusuma
-desc: Front End Develeoper
+desc: Backend Developer and Frontend Devleoper
+

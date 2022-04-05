@@ -1,0 +1,11 @@
+git
+
+[git clone]
+memindahkan dari network ke local (laptop kita)
+
+git clone <nama url git yang dipakai>
+
+[git branch]
+
+git branch <nama branch baru>
+
