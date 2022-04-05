@@ -1,7 +1,5 @@
 # Identitas
 
-nama: Geraldi Theo Wira Kusuma
-
-desc: Backend Developer and Frontend Devleoper
-
+nama: Geraldi Theo Wira Kusuma and Mohamad Azis Adnan Sokosugi
+desc: Frontend and Backend Developer
 hobi: Main Game
