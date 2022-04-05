@@ -9,3 +9,31 @@ git clone <nama url git yang dipakai>
 
 git branch <nama branch baru>
 
+[git checkout]
+git checkout <nama branch>
+
+[git merge]
+
+*master
+note
+
+git merge <nama branch yang mau di gabungkan>
+
+[.gitignore]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
