@@ -2,4 +2,5 @@
 
 Nama: Geraldi Theo
 
-Desc: Backend Developer
+Desc: Backend Developer and Frontend Devleoper
+
