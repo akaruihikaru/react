@@ -1,7 +1,5 @@
-# Judul
+# Identitas
 
-**Bold Text**
+Nama: Geraldi Theo
 
-`code`
-
-Geraldi Theo Wira Kusuma
+Desc: Backend Developer
