@@ -10,6 +10,7 @@ git clone <nama url git yang dipakai>
 git branch <nama branch baru>
 
 [git checkout]
+
 git checkout <nama branch>
 
 [git merge]
@@ -20,20 +21,8 @@ note
 git merge <nama branch yang mau di gabungkan>
 
 [.gitignore]
+untuk mengecualikan file atau folder yang di push
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[git pull / git fetch]
