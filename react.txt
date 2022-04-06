@@ -23,6 +23,8 @@ git merge <nama branch yang mau di gabungkan>
 [.gitignore]
 untuk mengecualikan file atau folder yang di push
 
-
-
 [git pull / git fetch]
+untuk mengupdate
+
+
+git pull
