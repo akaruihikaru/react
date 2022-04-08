@@ -112,6 +112,7 @@ function Home() {
   return (
     <>
       Home
+      <p>Some a long paragraph</p>
     </>
   )
 }
@@ -120,6 +121,7 @@ function About() {
   return (
     <>
       About
+      <p>And some a very long paragraph</p>
     </>
   )
 }
