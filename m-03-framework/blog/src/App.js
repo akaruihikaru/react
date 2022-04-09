@@ -10,10 +10,18 @@ function App() {
 
   return (
     <>
+      {/* <ol>
+        <li> <a href='/' >index</a> </li>
+        <li> <a href='/home' >home</a> </li>
+        <li> <a href='/about' >about</a> </li>
+        <li> <a href='/dashboard' >dashboard</a> </li>
+      </ol> */}
+
       <Routes>
         <Route path='/' element={<Root />} ></Route>
         <Route path='/home' element={<Home />} ></Route>
         <Route path='/about' element={<About />} ></Route>
+        <Route path='/dashboard' element={<Dashboard />} ></Route>
       </Routes>
 
     </>
@@ -122,6 +130,69 @@ function About() {
     <>
       About
       <p>And some a very long paragraph</p>
+    </>
+  )
+}
+
+
+
+function Dashboard() {
+  return (
+    <>
+      {/* React Tailwind */}
+
+      <head>
+        <title>React Tailwind</title>
+      </head>
+
+      <body>
+        <nav className='bg-white py-3 px-3 ' >
+          <div className='flex flex-row' >
+            <div className='basis-1/12  ' >
+              <div className='bg-white w-[58px] h-[58px] rounded-xl shadow-lg p-2 ' >
+                <img src='/logo192.png' alt='logo' />
+              </div>
+            </div>
+            <div className='  basis-10/12 hidden md:flex md:items-center ' >
+              <button className='bg-white px-6 py-1 text-[#B1B1B1] rounded-xl text-sm shadow-lg ' >Kembali</button>
+            </div>
+            <div className='basis-1/12  hidden md:flex md:items-center ' >
+              <button className='bg-[#E12960] px-6 py-1 text-white rounded-xl text-sm shadow-lg ' >Log Out</button>
+            </div>
+          </div>
+        </nav>
+
+        <section className='bg-[#E5E5E5]' >
+          <div className='py-5  flex flex-row justify-center ' >
+            <div className='basis-8/12 ' >
+              <p className='font-lexend ' >Detail Pesanan</p>
+            </div>
+          </div>
+
+          <div className='flex flex-col md:flex-row ' >
+            <div className='basis-2/12 border border-red-500 flex justify-center ' >
+              <div className='bg-[#E12960] w-[150px] h-[150px] rounded-lg ' >
+                @
+              </div>
+            </div>
+            <div className='basis-8/12 border border-red-500 ' >
+              <div className='bg-white shadow-lg  p-5   rounded-lg ' >
+                <div className='flex flex-row' >
+                  <div className='basis-4/12 border border-red-500 ' >A</div>
+                  <div className='basis-8/12 border border-red-500 ' >A</div>
+                </div>
+              </div>
+            </div>
+            <div className='basis-2/12 border border-red-500 flex justify-center ' >
+              <div className='bg-[#E12960] w-[150px] h-[150px] rounded-lg ' >
+                @
+              </div>
+            </div>
+          </div>
+        </section>
+      </body>
+
+
     </>
   )
 }
